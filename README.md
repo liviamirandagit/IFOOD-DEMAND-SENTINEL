@@ -12,7 +12,7 @@
 </p>
 
 ## || Visão Geral ||
-O **iFood Demand Sentinel** é uma solução end-to-end de engenharia e análise de dados desenvolvida para identificar oportunidades de expansão de mercado e áreas com alta demanda não atendidas.
+O **iFood Demand Sentinel** é uma solução "End-to-end" de engenharia e análise de dados desenvolvida para identificar oportunidades de expansão de mercado e áreas com alta demanda não atendidas.
 <img width="1915" height="929" alt="Captura de tela de 2026-09-08 23-57-55" src="https://github.com/user-attachments/assets/ea5d8052-e92e-41f4-b2a1-8b1e59e22fff" />
 
 ## || Arquitetura ||
