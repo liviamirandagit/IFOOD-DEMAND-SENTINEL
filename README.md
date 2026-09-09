@@ -22,5 +22,7 @@ O projeto simula um fluxo de dados de ponta a ponta: as buscas são geradas e co
 <p align="center">
   <img width="619" height="741" alt="Captura de tela de 2026-09-09 00-13-21" src="https://github.com/user-attachments/assets/9fbefa3f-51e5-4ea7-883f-28d8db7910a1" />
 </p>
+
+|| Postgre/PostGis - registro das buscas ||
 <img width="1809" height="845" alt="Captura de tela de 2026-09-08 23-22-23" src="https://github.com/user-attachments/assets/f002eb6d-cd4f-46d5-805d-248115caadb0" />
 
