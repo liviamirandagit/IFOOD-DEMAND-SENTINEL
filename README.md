@@ -11,15 +11,13 @@
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
 </p>
 
----
+
 
 ## | Visão Geral |
 O **iFood Demand Sentinel** é uma solução fim a fim de engenharia e análise de dados desenvolvida para identificar oportunidades de expansão de mercado e áreas com alta demanda não atendidas.
 <img width="1915" height="929" alt="Captura de tela de 2026-09-08 23-57-55" src="https://github.com/user-attachments/assets/ea5d8052-e92e-41f4-b2a1-8b1e59e22fff" />
 
-A arquitetura combina um módulo em **Java** para simulação de eventos de busca de clientes em alta escala, streaming via **Apache Kafka**, indexação geospacial hexagonal **Uber H3** e um painel executivo interativo em **Streamlit**.
 
----
 
 ## 📐 Arquitetura 
 
