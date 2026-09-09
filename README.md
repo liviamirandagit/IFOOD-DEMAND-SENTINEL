@@ -24,5 +24,7 @@ O projeto simula um fluxo de dados de ponta a ponta: as buscas são geradas e co
 </p>
 
 ## || Postgre/PostGis - registro das buscas ||
+Os registros armazenam os eventos de busca realizados pelos usuários, incluindo informações como o termo pesquisado, o usuário, o momento da busca e o índice H3 correspondente à localização. A partir desses dados, as consultas SQL permitem identificar regiões com maior volume de buscas, os tipos de comida mais pesquisados e a quantidade de usuários únicos em cada área.
+
 <img width="1809" height="845" alt="Captura de tela de 2026-09-08 23-22-23" src="https://github.com/user-attachments/assets/f002eb6d-cd4f-46d5-805d-248115caadb0" />
 
