@@ -17,9 +17,12 @@
 O **iFood Demand Sentinel** é uma solução fim a fim de engenharia e análise de dados desenvolvida para identificar oportunidades de expansão de mercado e áreas com alta demanda não atendidas.
 <img width="1915" height="929" alt="Captura de tela de 2026-09-08 23-57-55" src="https://github.com/user-attachments/assets/ea5d8052-e92e-41f4-b2a1-8b1e59e22fff" />
 
-
-
 ## 📐 Arquitetura 
 
-<img width="619" height="741" alt="Captura de tela de 2026-09-09 00-13-21" src="https://github.com/user-attachments/assets/9fbefa3f-51e5-4ea7-883f-28d8db7910a1" />
+## Arquitetura
+O projeto simula um fluxo de dados de ponta a ponta: as buscas são geradas e coletadas, passam pela ingestão em tempo real, são processadas e indexadas com H3, armazenadas no PostgreSQL/PostGIS e, por fim, utilizadas na visualização e análise dos dados.
+
+<p align="center">
+  <img width="619" height="741" alt="Captura de tela de 2026-09-09 00-13-21" src="https://github.com/user-attachments/assets/9fbefa3f-51e5-4ea7-883f-28d8db7910a1" />
+</p>
 
