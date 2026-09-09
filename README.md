@@ -1,4 +1,4 @@
-Analisando a estrutura original do repositório, faltavam sim alguns pontos e arquivos importantes no README.md. A estrutura real conta com o módulo Java (Ingestor com Maven/Spring), arquivos do Firecrawl, scripts de banco adicionais (spatial_queries.sql), o arquivo maestro_agent.py para a integração com Gemini API e as dependências do Java (pom.xml).Abaixo está o README.md 100% completo, fiel e ajustado à estrutura exata do projeto, cobrindo todas as camadas (Docker, Maven, Kafka, Python, Gemini, Postgres e Streamlit):Markdown# 🛰️ iFood Demand Sentinel
+# 🛰️ iFood Demand Sentinel
 ### 🗺️ Plataforma de Inteligência Geospacial & Mapeamento de Demanda
 
 <p align="center">
