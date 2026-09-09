@@ -1,5 +1,5 @@
 # 🛰️ iFood Demand Sentinel
-### 🗺️ Plataforma de Inteligência Geospacial & Mapeamento de Demanda
+### Plataforma de Inteligência Geospacial & Mapeamento de Demanda
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java_21-Spring_Boot-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
@@ -13,7 +13,7 @@
 
 ---
 
-## 📌 Visão Geral
+## | Visão Geral |
 O **iFood Demand Sentinel** é uma solução fim a fim de engenharia e análise de dados desenvolvida para identificar oportunidades de expansão de mercado e áreas com alta demanda não atendidas.
 <img width="1915" height="929" alt="Captura de tela de 2026-09-08 23-57-55" src="https://github.com/user-attachments/assets/ea5d8052-e92e-41f4-b2a1-8b1e59e22fff" />
 
@@ -21,7 +21,7 @@ A arquitetura combina um módulo em **Java** para simulação de eventos de busc
 
 ---
 
-## 📐 Arquitetura da Solução
+## 📐 Arquitetura 
 
 ```text
 ┌─────────────────────────┐      ┌─────────────────────────┐      ┌─────────────────────────┐
@@ -53,6 +53,7 @@ Origem dos Dados: Simulação de buscas de usuários implementada em Java (inges
     └── src/main/java/com/ifood/
         ├── DemandProducer.java # Producer Kafka
         └── searchEvent.java    # Modelo do evento de busca
+
 ⚡ Instruções de ExecuçãoPré-requisitosDocker e Docker ComposeJDK 21+ e Apache MavenPython 3.10+PostgreSQL1. Infraestrutura DockerNa raiz do repositório, suba o cluster contendo Kafka, Zookeeper e PostgreSQL:Bashdocker-compose up -d
 2. Banco de DadosConecte-se ao PostgreSQL criado pelo Docker e execute o script SQL:Bashpsql -h localhost -U postgres -d ifood_sentinel -f database-schema/schema.sql
 3. Módulo Ingestor (Java)Acesse a pasta do projeto Java, compile com Maven e inicie o gerador de eventos:Bashcd ingestor-java
